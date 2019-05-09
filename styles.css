@@ -1,5 +1,4 @@
 div {
-  border: 1px solid green;
   padding: 0;
   margin: 0;
 }
@@ -17,6 +16,7 @@ h1 {
 
 .pojemnik {
   clear: both;
+  overflow: auto;
 }
 
 .lewy {
@@ -32,14 +32,32 @@ h1 {
 .lewy2 {
   width: 33%;
   float: left;
+  margin-bottom: 10px;
 }
 
 .srodek {
   width: 33%;
   float: left;
+  margin-bottom: 10px;
 }
 
 .prawy2 {
   width: 33%;
   float: right;
+  margin-bottom: 10px;
+}
+
+img.nasz-obrazek {
+  width: 236px;
+  height: 236px;
+
+}
+
+.wysrodkowane {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+a {
+  color: red;
 }
