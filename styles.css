@@ -1,12 +1,45 @@
 div {
-  border: 1px solid red;
+  border: 1px solid green;
+  padding: 0;
+  margin: 0;
 }
 
 body {
   background: green;
+  padding: 0;
+
 }
 
 h1 {
   margin: 5px; 
-  font-color: #FFFFF;
+  font-color: #FFFFFF;
+}
+
+.pojemnik {
+  clear: both;
+}
+
+.lewy {
+  width: 48%;
+  float: left;
+}
+
+.prawy {
+  width: 48%;
+  float: right;
+}
+
+.lewy2 {
+  width: 33%;
+  float: left;
+}
+
+.srodek {
+  width: 33%;
+  float: left;
+}
+
+.prawy2 {
+  width: 33%;
+  float: right;
 }
