@@ -61,3 +61,101 @@ img.nasz-obrazek {
 a {
   color: red;
 }
+
+.pojemnik2 {
+  clear: both;
+  overflow: auto;
+}
+
+.lewy3 {
+  width: 33%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.srodek2 {
+  width: 33%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.prawy3 {
+  width: 33%;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.pojemnik3 {
+  clear: both;
+  overflow: auto;
+}
+
+.lewy4 {
+  width: 33%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.srodek3 {
+  width: 33%;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.prawy4 {
+  width: 33%;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.pojemnik4 {
+  clear: both;
+  overflow: auto;
+}
+
+.lewy5{
+  width: 33%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.srodek4 {
+  width: 33%;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.prawy5 {
+  width: 33%;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.pojemnik5 {
+  clear: both;
+  overflow: auto;
+}
+
+.lewy6 {
+  width: 33%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.srodek5 {
+  width: 33%;
+  float: right;
+  margin-bottom: 10px;
+}
+
+img.nasz-obrazek2 {
+  width: 225px;
+  height: 225px;
+  float: right;
+}
+
+.prawy6 {
+  width: 33%;
+  float: right;
+  margin-bottom: 10px;
+}
