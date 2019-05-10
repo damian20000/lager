@@ -98,13 +98,13 @@ a {
 
 .srodek3 {
   width: 33%;
-  float: right;
+  float: left;
   margin-bottom: 10px;
 }
 
 .prawy4 {
   width: 33%;
-  float: right;
+  float: left;
   margin-bottom: 10px;
 }
 
@@ -121,13 +121,13 @@ a {
 
 .srodek4 {
   width: 33%;
-  float: right;
+  float: left;
   margin-bottom: 10px;
 }
 
 .prawy5 {
   width: 33%;
-  float: right;
+  float: left;
   margin-bottom: 10px;
 }
 
@@ -142,20 +142,31 @@ a {
   margin-bottom: 10px;
 }
 
+.border {
+  width: 1px;
+  color: red;
+}
+
 .srodek5 {
   width: 33%;
-  float: right;
+  float: left;
   margin-bottom: 10px;
 }
 
 img.nasz-obrazek2 {
-  width: 225px;
-  height: 225px;
-  float: right;
+  width: 375px;
+  height: 520px;
+  float: left;
 }
 
 .prawy6 {
-  width: 33%;
-  float: right;
+  width: 66%;
+  float: left;
   margin-bottom: 10px;
+  border: 1px solid blue;
+}
+
+.pół {
+  width: 50%;
+  float: left;
 }
