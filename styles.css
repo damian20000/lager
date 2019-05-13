@@ -18,16 +18,19 @@ h1 {
 .pojemnik {
   clear: both;
   overflow: auto;
+  text-align: center;
 }
 
 .lewy {
   width: 48%;
   float: left;
+  text-align: center;
 }
 
 .prawy {
   width: 48%;
   float: right;
+  text-align: center;
 }
 
 .lewy2 {
@@ -55,7 +58,6 @@ img.nasz-obrazek {
 }
 
 .wysrodkowane {
-  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -188,6 +190,7 @@ header, footer {
 
 .sekcja2 {
   background-color: white;
+  text-align: center;
 }
 
 .sekcja4 {
@@ -227,4 +230,9 @@ header {
 footer {
   padding-left: 70px;
   padding-right: 70px;
+}
+
+h2 {
+  color: black;
+  text-align: center;
 }
