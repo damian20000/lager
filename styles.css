@@ -4,14 +4,15 @@ div {
 }
 
 body {
-  background: green;
+  background: white;
   padding: 0;
-
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  margin: 0;
 }
 
 h1 {
   margin: 5px; 
-  font-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .pojemnik {
@@ -169,4 +170,61 @@ img.nasz-obrazek2 {
 .pół {
   width: 50%;
   float: left;
+}
+
+.sekcja3 {
+  background-color: #F3CD6B;
+}
+
+.logo {
+  background-color: #F3CD6B;
+}
+
+header, footer {
+  background-color: #F3CD6B;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.sekcja2 {
+  background-color: white;
+}
+
+.sekcja4 {
+  background-color: white;
+}
+
+.sekcja5{
+  background-color: white;
+}
+
+.sekcja1 {
+  background-image: url('./obrazki/clinton-naik-497322-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+  padding-right: 35px;
+  padding-top: 65px;
+  padding-bottom: 95px;
+  color: black;
+}
+
+.sekcja {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+h1 {
+  color: black;
+  font-size: 60px;
+}
+
+header {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+footer {
+  padding-left: 70px;
+  padding-right: 70px;
 }
