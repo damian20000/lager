@@ -187,15 +187,24 @@ h1 {
 
 .karta {
   background-color: white;
-  width: 100px;
-  height: 200px;
-  padding: 100px;
+  width: 400px;
+  /* height: 200px; */
+  padding: 40px;
+  padding-bottom: 10px;
+  padding-top: 50px;
   border: 3px;
-  margin: 80px;
+  margin: 50px;
   /* width: 33%; */
   float: left;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   color: black;
+  border-bottom: 15px solid #EE9C00;
+  text-align: center;
+}
+
+.karta img {
+  width: 156px;
+  height: 194px;
 }
 
 /* KONIEC SEKCJI 3  */
