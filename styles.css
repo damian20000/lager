@@ -124,7 +124,7 @@ h1 {
 
 .prawy2 {
   width: 33%;
-  float: right;
+  float: left;
   margin-bottom: 10px;
   color: black;
 }
@@ -162,7 +162,7 @@ h1 {
 
 .prawy3 {
   width: 33%;
-  float: right;
+  float: left;
   margin-bottom: 10px;
   color: black;
 }
@@ -197,17 +197,21 @@ h1 {
   overflow: auto;
 }
 
-.numer1,
-.numer2,
-.numer3,
-.numer4,
-.numer5,
-.numer6 {
+.numer {
   text-align: center;
 }
 
 .sekcja3 {
   background-color: #F3CD6B;
+}
+
+.karta {
+  background-color: white;
+  width: 100px;
+  height: 200px;
+  padding: 100px;
+  border: 3px;
+  margin: 80px;
 }
 
 /* KONIEC SEKCJI 3  */
