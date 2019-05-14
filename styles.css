@@ -10,10 +10,40 @@ body {
   margin: 0;
 }
 
+.sekcja {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+/* SEKCJA 1 - OD LAGERA DO BOHATERA */
+
 h1 {
   margin: 5px; 
   color: #FFFFFF;
 }
+
+.logo {
+  background-color: #F3CD6B;
+}
+
+.sekcja1 {
+  background-image: url('./obrazki/clinton-naik-497322-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+  padding-right: 35px;
+  padding-top: 65px;
+  padding-bottom: 95px;
+  color: black;
+}
+
+.sekcja1 h1 {
+  color: black;
+}
+
+/* KONIEC SEKCJI 1 */
+
+/* SEKCJA 2 - SZEROKA GAMA MOŻLIWOŚCI */
 
 .pojemnik {
   clear: both;
@@ -25,44 +55,82 @@ h1 {
   width: 48%;
   float: left;
   text-align: center;
+  color: black;
 }
 
 .prawy {
   width: 48%;
   float: right;
   text-align: center;
+  color: black;
+}
+
+.sekcja2 {
+  background-color: white;
+  text-align: center;
+}
+
+.sekcja2 h2 {
+  text-align: center;
+  color: black;
+}
+
+.pojemik,
+.lewy,
+.prawy,
+.sekcja2,
+.sekcja2 h2 {
+  text-align: center;
+}
+
+.lewy,
+.prawy {
+  width: 48&;
+  text-align: center;
+  color: black;
+}
+
+/* KONIEC SEKCJI 2 */
+
+/* SEKCJA 3 - WARZENIE PIWA KROK PO KROKU */
+/* (TO JEST KOMENTARZ, ON NIE BĘDZIE BRANY POD UWAGĘ) */
+
+.pojemnik1 {
+  clear: both;
+  overflow: auto;
 }
 
 .lewy2 {
   width: 33%;
   float: left;
   margin-bottom: 10px;
+  color: black;
+}
+
+.numer1 {
+  text-align: center;
 }
 
 .srodek {
   width: 33%;
   float: left;
   margin-bottom: 10px;
+  color: black;
+}
+
+.numer2 {
+  text-align: center;
 }
 
 .prawy2 {
   width: 33%;
   float: right;
   margin-bottom: 10px;
+  color: black;
 }
 
-img.nasz-obrazek {
-  width: 236px;
-  height: 236px;
-
-}
-
-.wysrodkowane {
+.numer3 {
   text-align: center;
-}
-
-a {
-  color: red;
 }
 
 .pojemnik2 {
@@ -74,19 +142,91 @@ a {
   width: 33%;
   float: left;
   margin-bottom: 10px;
+  color: black;
+}
+
+.numer4 {
+  text-align: center;
 }
 
 .srodek2 {
   width: 33%;
   float: left;
   margin-bottom: 10px;
+  color: black;
+}
+
+.numer5 {
+  text-align: center;
 }
 
 .prawy3 {
   width: 33%;
   float: right;
   margin-bottom: 10px;
+  color: black;
 }
+
+.numer6 {
+  text-align: center;
+}
+
+.sekcja3 h3 {
+  text-align: center;
+  color: black;
+}
+
+.sekcja3 h2 {
+  text-align: center;
+  color: black;
+}
+
+.lewy2,
+.srodek,
+.prawy2,
+.lewy3,
+.srodek2,
+.prawy3 {
+  width: 33%;
+  margin-bottom: 10px;
+}
+
+.pojemnik1,
+.pojemik2 {
+  clear: both;
+  overflow: auto;
+}
+
+.numer1,
+.numer2,
+.numer3,
+.numer4,
+.numer5,
+.numer6 {
+  text-align: center;
+}
+
+.sekcja3 {
+  background-color: #F3CD6B;
+}
+
+/* KONIEC SEKCJI 3  */
+
+
+img.nasz-obrazek {
+  width: 236px;
+  height: 236px;
+}
+
+.wysrodkowane {
+  text-align: center;
+}
+
+a {
+  color: red;
+}
+
+/* SEKCJA 4 - RODZAJE PIWA */
 
 .pojemnik3 {
   clear: both;
@@ -98,6 +238,7 @@ a {
   float: left;
   margin-bottom: 10px;
 }
+
 
 .srodek3 {
   width: 33%;
@@ -133,6 +274,32 @@ a {
   float: left;
   margin-bottom: 10px;
 }
+
+.sekcja4 {
+  background-color: white;
+}
+
+.pojemnik3,
+.pojemnik4 {
+  clear: both;
+  overflow: auto;
+}
+
+.lewy4,
+.srodek3,
+.prawy4,
+.lewy5,
+.srodek4,
+.prawy5 {
+  width: 33%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+
+/* KONIEC SEKCJI 4 */
+
+/* SEKCJA 5 - WIELOLETNIA TRADYCJA, BOGATA HISTORIA */
 
 .pojemnik5 {
   clear: both;
@@ -174,13 +341,25 @@ img.nasz-obrazek2 {
   float: left;
 }
 
-.sekcja3 {
-  background-color: #F3CD6B;
+.sekcja5{
+  background-color: white;
 }
 
-.logo {
-  background-color: #F3CD6B;
+.lewy6,
+.srodek5 {
+  width: 33%;
+  float: left;
+  margin-bottom: 10px;
 }
+
+.lewy6,
+.srodek5,
+.prawy6 {
+  float: left;
+  margin-bottom: 10px;
+}
+
+/* KONIEC SEKCJI 5 */
 
 header, footer {
   background-color: #F3CD6B;
@@ -188,51 +367,14 @@ header, footer {
   padding-right: 70px;
 }
 
-.sekcja2 {
-  background-color: white;
-  text-align: center;
-}
-
-.sekcja4 {
-  background-color: white;
-}
-
-.sekcja5{
-  background-color: white;
-}
-
-.sekcja1 {
-  background-image: url('./obrazki/clinton-naik-497322-unsplash.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-left: 50px;
-  padding-right: 35px;
-  padding-top: 65px;
-  padding-bottom: 95px;
-  color: black;
-}
-
-.sekcja {
-  padding-left: 70px;
-  padding-right: 70px;
-}
-
-h1 {
-  color: black;
-  font-size: 60px;
-}
-
 header {
+  background-color: #F3CD6B;
   padding-left: 70px;
   padding-right: 70px;
 }
 
 footer {
+  background-color: #F3CD6B;
   padding-left: 70px;
   padding-right: 70px;
-}
-
-h2 {
-  color: black;
-  text-align: center;
 }
