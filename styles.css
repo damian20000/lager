@@ -95,7 +95,12 @@ h1 {
 /* SEKCJA 3 - WARZENIE PIWA KROK PO KROKU */
 /* (TO JEST KOMENTARZ, ON NIE BĘDZIE BRANY POD UWAGĘ) */
 
-.pojemnik1 {
+.sekcja3 {
+  background-color: #F3CD6B;
+}
+
+.pojemnik1,
+.pojemnik2 {
   clear: both;
   overflow: auto;
 }
@@ -107,48 +112,9 @@ h1 {
   color: black;
 }
 
-.numer1 {
-  text-align: center;
-}
-
-.srodek {
-}
-
-.numer2 {
-  text-align: center;
-}
-
-.prawy2 {
-}
-
-.numer3 {
-  text-align: center;
-}
-
 .pojemnik2 {
   clear: both;
   overflow: auto;
-}
-
-.lewy3 {
-}
-
-.numer4 {
-  text-align: center;
-}
-
-.srodek2 {
-}
-
-.numer5 {
-  text-align: center;
-}
-
-.prawy3 {
-}
-
-.numer6 {
-  text-align: center;
 }
 
 .sekcja3 h3 {
@@ -161,40 +127,16 @@ h1 {
   color: black;
 }
 
-.lewy2,
-.srodek,
-.prawy2,
-.lewy3,
-.srodek2,
-.prawy3 {
-  width: 33%;
-  margin-bottom: 10px;
-}
-
-.pojemnik1,
-.pojemik2 {
-  clear: both;
-  overflow: auto;
-}
-
 .numer {
   text-align: center;
 }
 
-.sekcja3 {
-  background-color: #F3CD6B;
-}
-
 .karta {
   background-color: white;
-  width: 400px;
-  /* height: 200px; */
-  padding: 40px;
-  padding-bottom: 10px;
-  padding-top: 50px;
+  width: 17%;
+  padding: 50px 40px 10px;
   border: 3px;
   margin: 50px;
-  /* width: 33%; */
   float: left;
   margin-bottom: 30px;
   color: black;
