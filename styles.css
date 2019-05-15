@@ -15,8 +15,6 @@ body {
   padding-right: 70px;
 }
 
-/* SEKCJA 1 - OD LAGERA DO BOHATERA */
-
 h1 {
   margin: 5px; 
   color: #FFFFFF;
@@ -25,6 +23,8 @@ h1 {
 .logo {
   background-color: #F3CD6B;
 }
+
+
 
 .sekcja1 {
   background-image: url('./obrazki/clinton-naik-497322-unsplash.jpg');
@@ -40,10 +40,6 @@ h1 {
 .sekcja1 h1 {
   color: black;
 }
-
-/* KONIEC SEKCJI 1 */
-
-/* SEKCJA 2 - SZEROKA GAMA MOŻLIWOŚCI */
 
 .pojemnik {
   clear: both;
@@ -64,6 +60,8 @@ h1 {
   text-align: center;
   color: black;
 }
+
+
 
 .sekcja2 {
   background-color: white;
@@ -90,10 +88,7 @@ h1 {
   color: black;
 }
 
-/* KONIEC SEKCJI 2 */
 
-/* SEKCJA 3 - WARZENIE PIWA KROK PO KROKU */
-/* (TO JEST KOMENTARZ, ON NIE BĘDZIE BRANY POD UWAGĘ) */
 
 .sekcja3 {
   background-color: #F3CD6B;
@@ -149,9 +144,6 @@ h1 {
   height: 194px;
 }
 
-/* KONIEC SEKCJI 3  */
-
-
 img.nasz-obrazek {
   width: 236px;
   height: 236px;
@@ -165,7 +157,9 @@ a {
   color: red;
 }
 
-/* SEKCJA 4 - RODZAJE PIWA */
+.pojemnik3, .lewy4, h1 {
+  color: black;
+}
 
 .pojemnik3 {
   clear: both;
@@ -178,17 +172,42 @@ a {
   margin-bottom: 10px;
 }
 
-
 .srodek3 {
   width: 33%;
   float: left;
   margin-bottom: 10px;
 }
 
+.szara-karta1 {
+  background-color: #EEEEEE;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.szara-karta1 h1 {
+  color: black;
+}
+
 .prawy4 {
   width: 33%;
   float: left;
   margin-bottom: 10px;
+}
+
+.szara-karta2 {
+  background-color: #EEEEEE;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.szara-karta2 h1 {
+  color: black;
 }
 
 .pojemnik4 {
@@ -202,10 +221,36 @@ a {
   margin-bottom: 10px;
 }
 
+.szara-karta3 {
+  background-color: #EEEEEE;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.szara-karta3 h1 {
+  color: black;
+}
+
 .srodek4 {
   width: 33%;
   float: left;
   margin-bottom: 10px;
+}
+
+.szara-karta4 {
+  background-color: #EEEEEE;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.szara-karta4 h1 {
+  color: black;
 }
 
 .prawy5 {
@@ -213,6 +258,21 @@ a {
   float: left;
   margin-bottom: 10px;
 }
+
+.szara-karta5 {
+  background-color: #EEEEEE;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.szara-karta5 h1 {
+  color: black;
+}
+
+
 
 .sekcja4 {
   background-color: white;
@@ -236,9 +296,10 @@ a {
 }
 
 
-/* KONIEC SEKCJI 4 */
 
-/* SEKCJA 5 - WIELOLETNIA TRADYCJA, BOGATA HISTORIA */
+.sekcja5 h1 {
+  text-align: center;
+}
 
 .pojemnik5 {
   clear: both;
@@ -297,8 +358,6 @@ img.nasz-obrazek2 {
   float: left;
   margin-bottom: 10px;
 }
-
-/* KONIEC SEKCJI 5 */
 
 header, footer {
   background-color: #F3CD6B;
