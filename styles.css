@@ -222,8 +222,8 @@ a {
   width: 60px;
   height: 60px;
   position: relative;
-  top: -10%;
-  left: -20%;
+  top: -6%;
+  left: -10%;
   overflow: hidden;
   border-radius: 50%;
   background-color: #EE9C00;
@@ -261,6 +261,29 @@ a {
   width: 33%;
   float: left;
   margin-bottom: 10px;
+  margin-left: 125px;
+}
+
+.kolko3 {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -6%;
+  left: -10%;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #EE9C00;
+}
+
+.obrazek-w-kolku3 {
+  width: 45px;
+  height: auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #EE9C00;
+  margin-left: 10px;
 }
 
 .szara-karta3 {
@@ -282,6 +305,27 @@ a {
   margin-bottom: 10px;
 }
 
+.kolko4 {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -6%;
+  left: -10%;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #EE9C00;
+}
+
+.obrazek-w-kolku4 {
+  width: 45px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #EE9C00;
+}
+
 .szara-karta4 {
   background-color: #EEEEEE;
   margin-right: 30px;
@@ -299,6 +343,27 @@ a {
   width: 33%;
   float: left;
   margin-bottom: 10px;
+}
+
+.kolko5 {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -6%;
+  left: -10%;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #EE9C00;
+}
+
+.obrazek-w-kolku5 {
+  width: 45px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #EE9C00;
 }
 
 .szara-karta5 {
