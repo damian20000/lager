@@ -1,0 +1,88 @@
+div {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #F4CD42;
+    padding: 0;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    margin: 0;
+}
+
+.logo {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.sekcja1 {
+    color: black;
+}
+
+img.corona_cerveza.jpg {
+    width: 10px;
+    height: 10px;
+}
+
+.lewy {
+    width: 30%;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.lewy2 {
+    width: 75%;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.srodek {
+    width: 30%;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.srodek2 {
+    width: 75%;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.prawy {
+    width: 30%;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.prawy2 {
+    width: 75%;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.pół {
+    width: 50%;
+    float: left;
+}
+
+img.obrazki {
+    width: 375px;
+    height: 520px;
+    float: left;
+}
+
+.piwo_obrazek {
+    width: 100%;
+}
