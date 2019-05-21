@@ -10,12 +10,32 @@ body {
     margin: 0;
 }
 
+.naglowek {
+    background: black;
+    width: 100%;
+}
+
 .logo {
     background-color: black;
+    display: inline;
+    float: left;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.logo2 {
+    background-color: black;
+    display: inline;
+    float: right;
+    padding-left: 79.4%;
+    padding-bottom: 1%;
+    padding-top: 1%;
 }
 
 h1 {
     text-align: center;
+    font-size: 300%;
 }
 
 .sekcja1 {
@@ -31,7 +51,8 @@ img.corona_cerveza.jpg {
     width: 30%;
     float: left;
     margin-bottom: 10px;
-    margin-left: 10px;
+    margin-left: 84px;
+    margin-right: 10px;
     background-color: white;
 }
 
@@ -85,4 +106,14 @@ img.obrazki {
 
 .piwo_obrazek {
     width: 100%;
+}
+
+.pojemnik1 {
+    margin: auto;
+}
+
+.srodek3 {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
 }
